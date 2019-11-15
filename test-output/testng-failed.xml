@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRMPRO Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.virtusa.testng.listeners.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Login Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.virtusa.testng.tests.HomeTest">
+        <methods>
+          <include name="clickCompanyTab"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.virtusa.testng.tests.HomeTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [CRMPRO Test Suite] -->

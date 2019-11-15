@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="CRMPRO Test Suite">
+  
+  <listeners>
+  <listener class-name="com.virtusa.testng.listeners.ListenerTest" />
+  </listeners>
+  
+  
+  <test name="Login Test">
+  <parameter name="browser" value="chrome"/>
+      <packages>
+      <package name="com.virtusa.testng.tests"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
