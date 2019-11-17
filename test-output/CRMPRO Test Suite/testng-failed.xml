@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="com.virtusa.testng.listeners.ListenerTest"/>
   </listeners>
-  <test thread-count="5" name="Login Test(failed)">
+  <test thread-count="5" name="CRMPROApplication Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.virtusa.testng.tests.HomeTest">
+      <class name="com.virtusa.testng.tests.LoginTest">
         <methods>
-          <include name="clickCompanyTab"/>
+          <include name="enterwrongCredentials"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.virtusa.testng.tests.HomeTest -->
+      </class> <!-- com.virtusa.testng.tests.LoginTest -->
     </classes>
-  </test> <!-- Login Test(failed) -->
+  </test> <!-- CRMPROApplication Test(failed) -->
 </suite> <!-- Failed suite [CRMPRO Test Suite] -->

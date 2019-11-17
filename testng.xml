@@ -5,8 +5,7 @@
   <listener class-name="com.virtusa.testng.listeners.ListenerTest" />
   </listeners>
   
-  
-  <test name="Login Test">
+ <test name="CRMPROApplication Test">
   <parameter name="browser" value="chrome"/>
       <packages>
       <package name="com.virtusa.testng.tests"/>

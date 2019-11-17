@@ -21,6 +21,12 @@ public class ContactPage extends BasePage{
 	private By title=By.cssSelector("select[name=title]");
 	private By fname=By.cssSelector("input[id=first_name]");
 	private By surname=By.cssSelector("input[id=surname]");
+
+	private By select_suffix=By.cssSelector("select[name='suffix']");
+	private By txt_nickname=By.cssSelector("input[name='nickname']");
+	private By select_category=By.cssSelector("select[name='category']");
+	private By select_status=By.cssSelector("select[name='status']");
+	private By txt_mobilenumber=By.cssSelector("input[id='mobile']");
 	
 	private By company_lookup=By.xpath("//tr[8]//input[@type='button' and @value='Lookup']");
 	private By company_txt=By.cssSelector("input[name=client_lookup]");
@@ -52,6 +58,22 @@ public class ContactPage extends BasePage{
 		select.selectByVisibleText(txttitle);
 	}
 	
+	public void setSuffix(String suffix)
+	{
+		waitForElementTobeVisible(select_suffix);
+		select=new Select(driver.findElement(select_suffix));
+		select.selectByVisibleText(suffix);
+	}
+	
+	public void setMobileNumber(String mobilenumber)
+	{
+	
+		waitForElementTobeVisible(txt_mobilenumber);
+		driver.findElement(txt_mobilenumber).sendKeys(mobilenumber);
+				
+	}
+	
+	
 	public void setFirstName(String firstname)
 	{
 		waitForElementTobeVisible(fname);
@@ -62,6 +84,29 @@ public class ContactPage extends BasePage{
 	   waitForElementTobeVisible(surname);
 	   driver.findElement(surname).sendKeys(sname);
 	}
+	
+	
+	public void setNickname(String name)
+	{
+		
+		waitForElementTobeVisible(txt_nickname);
+		driver.findElement(txt_nickname).sendKeys(name);
+	}
+	
+	public void setCategory(String category)
+	{
+	
+		waitForElementTobeVisible(select_category);
+		select=new Select(driver.findElement(select_category));
+		select.selectByVisibleText(category);
+	}
+	
+	public void setStatus(String status)
+	{	
+		waitForElementTobeVisible(select_status);
+		select=new Select(driver.findElement(select_status));
+		select.selectByVisibleText(status);
+    }
 	
 	public void setCompanyNameByLookUp(String companyname)
 	{

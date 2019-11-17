@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-13T14:01:07Z" name="CRMPRO Test Suite" finished-at="2019-11-13T14:06:09Z" duration-ms="301926">
+  <suite started-at="2019-11-17T06:53:00Z" name="CRMPRO Test Suite" finished-at="2019-11-17T06:59:03Z" duration-ms="362696">
     <groups>
     </groups>
-    <test started-at="2019-11-13T14:01:07Z" name="Login Test" finished-at="2019-11-13T14:06:09Z" duration-ms="301926">
+    <test started-at="2019-11-17T06:53:00Z" name="CRMPROApplication Test" finished-at="2019-11-17T06:59:03Z" duration-ms="362696">
       <class name="com.virtusa.testng.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:03:29Z" name="setUp" finished-at="2019-11-13T14:04:06Z" duration-ms="36978" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:56:52Z" name="setUp" finished-at="2019-11-17T06:57:05Z" duration-ms="13063" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="enterCredentials()[pri:1, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:04:06Z" name="enterCredentials" finished-at="2019-11-13T14:04:15Z" duration-ms="9619" status="PASS">
+        <test-method signature="enterCredentials()[pri:1, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:57:05Z" name="enterCredentials" finished-at="2019-11-17T06:57:10Z" duration-ms="4765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:04:15Z" name="tearDown" finished-at="2019-11-13T14:04:26Z" duration-ms="11106" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:57:10Z" name="tearDown" finished-at="2019-11-17T06:57:21Z" duration-ms="10783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:05:21Z" name="setUp" finished-at="2019-11-13T14:05:54Z" duration-ms="32770" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:57:51Z" name="setUp" finished-at="2019-11-17T06:58:07Z" duration-ms="15736" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,46 +37,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="enterwrongCredentials()[pri:2, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:05:54Z" name="enterwrongCredentials" finished-at="2019-11-13T14:05:59Z" duration-ms="4891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterwrongCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.LoginTest@313b2ea6]" started-at="2019-11-13T14:05:59Z" name="tearDown" finished-at="2019-11-13T14:06:09Z" duration-ms="10878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.virtusa.testng.tests.LoginTest -->
-      <class name="com.virtusa.testng.tests.HomeTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:01:08Z" name="setUp" finished-at="2019-11-13T14:01:55Z" duration-ms="47796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickCompanyTab()[pri:1, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:01:55Z" name="clickCompanyTab" finished-at="2019-11-13T14:01:57Z" duration-ms="1616" status="FAIL">
+        <test-method signature="enterwrongCredentials()[pri:2, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:58:07Z" name="enterwrongCredentials" finished-at="2019-11-17T06:58:08Z" duration-ms="1343" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1267, 116). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+              <![CDATA[element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1267, 116). Other element would receive the click: <div id="preloader" style="opacity: 0.0747111;">...</div>
   (Session info: chrome=78.0.3904.97)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-523ER982', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ef668aeb4017e77e019bb68beac8f6b0]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d826b564495804b507fffac0fc077124]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1267, 116). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1267, 116). Other element would receive the click: <div id="preloader" style="opacity: 0.0747111;">...</div>
   (Session info: chrome=78.0.3904.97)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-523ER982', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ef668aeb4017e77e019bb68beac8f6b0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d826b564495804b507fffac0fc077124
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -91,7 +70,7 @@ at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 at com.virtusa.testng.pages.BasePage.elementClick(BasePage.java:143)
 at com.virtusa.testng.pages.LoginPage.clickSubmit(LoginPage.java:44)
-at com.virtusa.testng.tests.HomeTest.clickCompanyTab(HomeTest.java:28)
+at com.virtusa.testng.tests.LoginTest.enterwrongCredentials(LoginTest.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,12 +101,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickCompanyTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:03:18Z" name="tearDown" finished-at="2019-11-13T14:03:29Z" duration-ms="11206" status="PASS">
+        </test-method> <!-- enterwrongCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.LoginTest@3e96bacf]" started-at="2019-11-17T06:58:52Z" name="tearDown" finished-at="2019-11-17T06:59:03Z" duration-ms="11395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:04:26Z" name="setUp" finished-at="2019-11-13T14:05:01Z" duration-ms="34828" status="PASS">
+      </class> <!-- com.virtusa.testng.tests.LoginTest -->
+      <class name="com.virtusa.testng.tests.ContactTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:55:13Z" name="setUp" finished-at="2019-11-17T06:55:27Z" duration-ms="13989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,15 +119,458 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickContactTab()[pri:2, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:05:01Z" name="clickContactTab" finished-at="2019-11-13T14:05:10Z" duration-ms="8749" status="PASS">
+        <test-method signature="feedContactForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:55:27Z" name="feedContactForm" data-provider="readData" finished-at="2019-11-17T06:55:37Z" duration-ms="10027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahadevan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PhD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[President]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Key Contact]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9.393939999E9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Google Talk]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:55:37Z" name="tearDown" finished-at="2019-11-17T06:55:48Z" duration-ms="10826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:55:48Z" name="setUp" finished-at="2019-11-17T06:56:02Z" duration-ms="14324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="feedContactForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:56:02Z" name="feedContactForm" data-provider="readData" finished-at="2019-11-17T06:56:12Z" duration-ms="9889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Venkata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Srinivasa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PhD]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Venkat]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Microsoft]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[President]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Key Contact]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8.484848888E9]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[MSN Messenger]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[36892.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedContactForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.ContactTest@fd07cbb]" started-at="2019-11-17T06:56:12Z" name="tearDown" finished-at="2019-11-17T06:56:23Z" duration-ms="10858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.virtusa.testng.tests.ContactTest -->
+      <class name="com.virtusa.testng.tests.CompanyTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:53:02Z" name="setUp" finished-at="2019-11-17T06:53:36Z" duration-ms="34392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="saveCompanyFormWithExcelData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:53:36Z" name="saveCompanyFormWithExcelData" data-provider="readDataFromExcel" finished-at="2019-11-17T06:53:49Z" duration-ms="12870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Inc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13000000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15500]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Internet]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GINC98531]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9885098853]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9885398850]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[www.shivasanathanadharma.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[everyonepray4u@sanathanadharma.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveCompanyFormWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:53:49Z" name="tearDown" finished-at="2019-11-17T06:54:00Z" duration-ms="11160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:54:00Z" name="setUp" finished-at="2019-11-17T06:54:15Z" duration-ms="14964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="saveCompanyFormWithExcelData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:54:15Z" name="saveCompanyFormWithExcelData" data-provider="readDataFromExcel" finished-at="2019-11-17T06:54:27Z" duration-ms="11374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dell Inc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product and Services]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50000000000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25800]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ad]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[DELL86421]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[8442084421]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[5889058891]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[www.sthithikartha.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[srimahavishnu@sthithikartha.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveCompanyFormWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:54:27Z" name="tearDown" finished-at="2019-11-17T06:54:38Z" duration-ms="10900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:54:38Z" name="setUp" finished-at="2019-11-17T06:54:51Z" duration-ms="13713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="saveCompanyFormWithExcelData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:54:51Z" name="saveCompanyFormWithExcelData" data-provider="readDataFromExcel" finished-at="2019-11-17T06:55:02Z" duration-ms="10693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deloitte]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Product]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80005002000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[35900]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Medium]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ad]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[DLUS54321]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[5897654321]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[6211365401]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[www.srustikartha.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sribramha@chathurmukhabramha.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveCompanyFormWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.CompanyTest@2b4bac49]" started-at="2019-11-17T06:55:02Z" name="tearDown" finished-at="2019-11-17T06:55:13Z" duration-ms="10821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.virtusa.testng.tests.CompanyTest -->
+      <class name="com.virtusa.testng.tests.HomeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:56:23Z" name="setUp" finished-at="2019-11-17T06:56:36Z" duration-ms="13465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickCompanyTab()[pri:1, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:56:36Z" name="clickCompanyTab" finished-at="2019-11-17T06:56:41Z" duration-ms="4740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCompanyTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:56:41Z" name="tearDown" finished-at="2019-11-17T06:56:52Z" duration-ms="10802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:57:21Z" name="setUp" finished-at="2019-11-17T06:57:35Z" duration-ms="14772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickContactTab()[pri:2, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:57:35Z" name="clickContactTab" finished-at="2019-11-17T06:57:40Z" duration-ms="5023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContactTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.HomeTest@6a2b953e]" started-at="2019-11-13T14:05:10Z" name="tearDown" finished-at="2019-11-13T14:05:21Z" duration-ms="10792" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.virtusa.testng.tests.HomeTest@3571b748]" started-at="2019-11-17T06:57:40Z" name="tearDown" finished-at="2019-11-17T06:57:51Z" duration-ms="10780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.virtusa.testng.tests.HomeTest -->
-    </test> <!-- Login Test -->
+    </test> <!-- CRMPROApplication Test -->
   </suite> <!-- CRMPRO Test Suite -->
 </testng-results>

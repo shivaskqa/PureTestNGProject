@@ -1,6 +1,5 @@
 package com.virtusa.testng.tests;
 
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Listeners;
@@ -22,7 +21,7 @@ public class HomeTest extends TestBase{
 	public void clickCompanyTab()
 	{
 		
-		LoginPage lpage= new LoginPage(driver);
+		 LoginPage lpage= new LoginPage(driver);
 		 lpage.setUsername(prop.getProperty("username"));
 		 lpage.setPassword(prop.getProperty("password"));
 		 lpage.clickSubmit();
@@ -53,10 +52,7 @@ public class HomeTest extends TestBase{
 		 
 		 hpage.clickContactsTab();
 			
-		
-		
-		
-		
+   	
 	}
 	
 	
