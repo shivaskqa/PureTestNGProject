@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Login Test</title>
+<title>TestNG:  CRMPROApplication Test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Login Test</h2><table border='1' align="center">
+<h2 align='center'>CRMPROApplication Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 13 19:31:07 IST 2019</td>
+<td>Started on:</td><td>Sun Nov 17 12:23:00 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>301 seconds (301926 ms)</td>
+<tr><td>Total time:</td><td>362 seconds (362696 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.virtusa.testng.tests.HomeTest.clickCompanyTab()'><b>clickCompanyTab</b><br>Test class: com.virtusa.testng.tests.HomeTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1267, 116). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;
+<td title='com.virtusa.testng.tests.LoginTest.enterwrongCredentials()'><b>enterwrongCredentials</b><br>Test class: com.virtusa.testng.tests.LoginTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1267, 116). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.0747111;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=78.0.3904.97)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-523ER982&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ef668aeb4017e77e019bb68beac8f6b0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d826b564495804b507fffac0fc077124
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -93,15 +93,15 @@ Session ID: ef668aeb4017e77e019bb68beac8f6b0
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at com.virtusa.testng.pages.BasePage.elementClick(BasePage.java:143)
 	at com.virtusa.testng.pages.LoginPage.clickSubmit(LoginPage.java:44)
-	at com.virtusa.testng.tests.HomeTest.clickCompanyTab(HomeTest.java:28)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2003305136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2003305136'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1267, 116). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;
+	at com.virtusa.testng.tests.LoginTest.enterwrongCredentials(LoginTest.java:37)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369270319", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace369270319'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1267, 116). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 0.0747111;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=78.0.3904.97)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-523ER982&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ef668aeb4017e77e019bb68beac8f6b0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\skandha\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d826b564495804b507fffac0fc077124
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -116,7 +116,7 @@ Session ID: ef668aeb4017e77e019bb68beac8f6b0
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at com.virtusa.testng.pages.BasePage.elementClick(BasePage.java:143)
 	at com.virtusa.testng.pages.LoginPage.clickSubmit(LoginPage.java:44)
-	at com.virtusa.testng.tests.HomeTest.clickCompanyTab(HomeTest.java:28)
+	at com.virtusa.testng.tests.LoginTest.enterwrongCredentials(LoginTest.java:37)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,7 +144,7 @@ Session ID: ef668aeb4017e77e019bb68beac8f6b0
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>1</td>
-<td>com.virtusa.testng.tests.HomeTest@6a2b953e</td></tr>
+<td>com.virtusa.testng.tests.LoginTest@3e96bacf</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -154,20 +154,45 @@ Session ID: ef668aeb4017e77e019bb68beac8f6b0
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.virtusa.testng.tests.HomeTest.clickCompanyTab()'><b>clickCompanyTab</b><br>Test class: com.virtusa.testng.tests.HomeTest</td>
+<td></td>
+<td>4</td>
+<td>com.virtusa.testng.tests.HomeTest@3571b748</td></tr>
+<tr>
 <td title='com.virtusa.testng.tests.HomeTest.clickContactTab()'><b>clickContactTab</b><br>Test class: com.virtusa.testng.tests.HomeTest</td>
 <td></td>
-<td>8</td>
-<td>com.virtusa.testng.tests.HomeTest@6a2b953e</td></tr>
+<td>5</td>
+<td>com.virtusa.testng.tests.HomeTest@3571b748</td></tr>
 <tr>
 <td title='com.virtusa.testng.tests.LoginTest.enterCredentials()'><b>enterCredentials</b><br>Test class: com.virtusa.testng.tests.LoginTest</td>
 <td></td>
-<td>9</td>
-<td>com.virtusa.testng.tests.LoginTest@313b2ea6</td></tr>
-<tr>
-<td title='com.virtusa.testng.tests.LoginTest.enterwrongCredentials()'><b>enterwrongCredentials</b><br>Test class: com.virtusa.testng.tests.LoginTest</td>
-<td></td>
 <td>4</td>
-<td>com.virtusa.testng.tests.LoginTest@313b2ea6</td></tr>
+<td>com.virtusa.testng.tests.LoginTest@3e96bacf</td></tr>
+<tr>
+<td title='com.virtusa.testng.tests.ContactTest.feedContactForm()'><b>feedContactForm</b><br>Test class: com.virtusa.testng.tests.ContactTest<br>Parameters: Mr., Mahadevan, Shiva, PhD, Shiva, Google, President, Key Contact, Active, 9.393939999E9, Google Talk, 1.0</td>
+<td></td>
+<td>10</td>
+<td>com.virtusa.testng.tests.ContactTest@fd07cbb</td></tr>
+<tr>
+<td title='com.virtusa.testng.tests.ContactTest.feedContactForm()'><b>feedContactForm</b><br>Test class: com.virtusa.testng.tests.ContactTest<br>Parameters: Mr., Venkata, Srinivasa, PhD, Venkat, Microsoft, President, Key Contact, Active, 8.484848888E9, MSN Messenger, 36892.0</td>
+<td></td>
+<td>9</td>
+<td>com.virtusa.testng.tests.ContactTest@fd07cbb</td></tr>
+<tr>
+<td title='com.virtusa.testng.tests.CompanyTest.saveCompanyFormWithExcelData()'><b>saveCompanyFormWithExcelData</b><br>Test class: com.virtusa.testng.tests.CompanyTest<br>Parameters: Google Inc, Product, 13000000000, 15500, Active, Client, High, Internet, GINC98531, 9885098853, 9885398850, www.shivasanathanadharma.com, everyonepray4u@sanathanadharma.com</td>
+<td></td>
+<td>12</td>
+<td>com.virtusa.testng.tests.CompanyTest@2b4bac49</td></tr>
+<tr>
+<td title='com.virtusa.testng.tests.CompanyTest.saveCompanyFormWithExcelData()'><b>saveCompanyFormWithExcelData</b><br>Test class: com.virtusa.testng.tests.CompanyTest<br>Parameters: Dell Inc, Product and Services, 50000000000, 25800, New, Prospect, High, Ad, DELL86421, 8442084421, 5889058891, www.sthithikartha.com, srimahavishnu@sthithikartha.com</td>
+<td></td>
+<td>11</td>
+<td>com.virtusa.testng.tests.CompanyTest@2b4bac49</td></tr>
+<tr>
+<td title='com.virtusa.testng.tests.CompanyTest.saveCompanyFormWithExcelData()'><b>saveCompanyFormWithExcelData</b><br>Test class: com.virtusa.testng.tests.CompanyTest<br>Parameters: Deloitte, Product, 80005002000, 35900, New, Partner, Medium, Ad, DLUS54321, 5897654321, 6211365401, www.srustikartha.com, sribramha@chathurmukhabramha.com</td>
+<td></td>
+<td>10</td>
+<td>com.virtusa.testng.tests.CompanyTest@2b4bac49</td></tr>
 </table><p>
 </body>
 </html>
