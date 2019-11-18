@@ -55,9 +55,7 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
-          <parallel>methods</parallel>
-        <useUnlimitedThreads>true</useUnlimitedThreads>
-        </configuration>
+          </configuration>
       </plugin>
    </plugins>
    </build>
